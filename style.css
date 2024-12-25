@@ -1,25 +1,37 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 2rem 0;
+h1, h2 {
+  color: #maroon;
+}
+
+p, ul {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #maroon;
+}
+
+.container {
+  padding: 2rem;
   text-align: center;
 }
 
+/* Navigation Bar */
 nav ul {
-  background: #444;
-  color: #fff;
+  background: #maroon;
   display: flex;
   justify-content: center;
   list-style: none;
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 1rem;
 }
 
 nav ul li {
@@ -27,24 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
+  color white
 }
 
-.section {
-  padding: 2rem;
-  text-align: center;
-}
-
-.project {
-  border: 1px solid #ddd;
-  margin: 1rem 0;
-  padding: 1rem;
-}
-
-footer {
-  background: #222;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
-}
+}```
